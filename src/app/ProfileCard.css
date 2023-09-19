@@ -1,58 +1,118 @@
 .profile-card {
-    border: 1px solid #d9e8f5;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f5fafd;
-  }
-  
-  .profile-card h1 {
+  border: 1px solid #d9e8f5;
+  /* padding: 20px;
+  border-radius: 10px;
+  max-width: 600px; */
+  /* margin: 20px auto; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5fafd;
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.main-title {
     margin-top: 0;
     color: #004d7a;
     border-bottom: 2px solid #0077b6;
     padding-bottom: 10px;
+}
+
+.animated-text {
+    border:none;
+    font-size: 65px;
+    text-align: center;
+    margin : 100px 0px;
+    border-bottom: none;
+}
+
+.profile-card h1 {
+
+}
+
+.profile-card h2 {
+  color: #0077b6;
+}
+
+.profile-card h3 {
+  margin-top: 20px;
+  color: #005f8d;
+}
+
+.profile-card p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.profile-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.profile-card li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-card li > ul {
+  padding-left: 20px;
+}
+
+.profile-card li > ul > li {
+  color: #666;
+}
+
+.profile-card a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.profile-card a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For tablets */
+@media (max-width: 768px) {
+  .profile-card {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px auto;
   }
-  
-  .profile-card h2 {
-    color: #0077b6;
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .profile-card {
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px auto;
   }
-  
+
+  .profile-card h1 {
+    font-size: 1.5em;
+  }
+
+  .profile-card h2,
   .profile-card h3 {
-    margin-top: 20px;
-    color: #005f8d;
+    font-size: 1.2em;
   }
-  
-  .profile-card p {
-    color: #333;
-    line-height: 1.5;
-  }
-  
-  .profile-card ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
+
+  .profile-card p,
   .profile-card li {
-    margin-bottom: 10px;
-    color: #333;
+    font-size: 0.9em;
   }
-  
-  .profile-card li > ul {
-    padding-left: 20px;
-  }
-  
-  .profile-card li > ul > li {
-    color: #666;
-  }
-  
-  .profile-card a {
-    color: #0077b6;
-    text-decoration: none;
-  }
-  
-  .profile-card a:hover {
-    text-decoration: underline;
+}
+
+.img-profile {
+    border-radius: 100%;
+    width:300px;
+    margin-right:50px;
   }
   
