@@ -41,7 +41,7 @@ const Article1 = () => (
 );
 const Article2 = () => (
   <div>
-    <img src="/images/article1.png"/>
+    <img src="/images/article2.png"/>
     <h1>L'Avènement d'un Leadership Féminin Éclatant</h1>
     <p>
       Imaginez un monde où les femmes leaders se rassemblent pour bâtir un
@@ -75,7 +75,7 @@ const Article2 = () => (
 );
 const Article3 = () => (
   <div>
-    <img src="/images/article1.png"/>
+    <img src="/images/article3.png"/>
     <h1>L'Épée de Damoclès au-dessus de nos Têtes</h1>
     <p>
       Une entreprise qui prétend promouvoir le leadership féminin, voilà une
